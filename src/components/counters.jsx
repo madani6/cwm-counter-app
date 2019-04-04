@@ -20,6 +20,7 @@ class Counters extends Component {
             key={counter.id}
             onDelete={onDelete}
             onIncrement={onIncrement}
+            onDecrement={this.props.onDecrement}
             counter={counter}
           />
         ))}
