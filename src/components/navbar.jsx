@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 
 const NavBar = ({totalCounters}) => {
+    console.log('NavBar- Rendered');
+    
     return (
         <div>
           <nav className="navbar navbar-light bg-light">
